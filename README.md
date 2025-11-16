@@ -9,7 +9,7 @@ new pickupBike; // variavel da pickup
 ```
 ### Segundo coloque esse codigo em public OnGameModeInit()
 ```
-  pickupBike = CreatePickup(19131, 1, 1682.4880,-2305.5110,13.5362, 0); // Criara a pickup quando a Gamemode for iniciada
+  pickupBike = CreatePickup(19131, 1, 1682.4880,-2305.5110,13.5362, 0); // Criara a pickup quando a Gamemode for iniciada, voce pode alterar a posiçao x, y, z da pickup e do texto 3d
   Create3DTextLabel("Aluguel de bike", -1, 1682.4880,-2305.5110,13.5362, 15.0, 0); // Criara o texto 3d na mesma posiçao da pickup
 ```
 ### Terceiro coloque esse codigo em public OnGameModeExit()
