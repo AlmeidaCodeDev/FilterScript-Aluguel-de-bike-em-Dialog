@@ -51,7 +51,7 @@ new pickupBike; // variavel da pickup
                 {
                     if(GetPlayerMoney(playerid) < 500)return SendClientMessage(playerid, 0xFF0000FF, "SERVER: Voce nao tem dinheiro suficiente para comprar esta Bike."); // verifica se o player tem o dinheiro suficiente
                     GivePlayerMoney(playerid, -500); // tira 500 R$ do player
-                    bike = CreateVehicle(510, x + 1.0, y + 1.0, z + 1.0, 0, 0, 0, 0, 0); // criar a bike na posicao do player, adiciona 1 no x, y, z do player para nao bugar
+                    bike = CreateVehicle(510, x + 1.0, y + 1.0, z + 1.0, 0, 0, 0, 0, 0); // criar a Mountain bike na posicao do player, adiciona 1 no x, y, z do player para nao bugar
                     PutPlayerInVehicle(playerid, bike, 0); // coloca o player no assento do motorista
                 }
             }
